@@ -2,7 +2,7 @@ package builder;
 
 import creacional.Vehiculo;
 
-public class ChevroletDmax extends VehiculoBuilder{
+public class ChevroletDmaxBuilder extends VehiculoBuilder{
 
     @Override
     public void contruirMarcaModelo() {
