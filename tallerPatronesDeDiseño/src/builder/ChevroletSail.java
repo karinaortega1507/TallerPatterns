@@ -2,28 +2,28 @@ package builder;
 
 import creacional.Vehiculo;
 
-public class ChevroletSparkBuilder extends VehiculoBuilder{
+public class ChevroletSail extends VehiculoBuilder{
 
     @Override
     public void contruirMarcaModelo() {
         c.setMarca("Chevrolet");
-        c.setModelo("Spark");
+        c.setModelo("Sail");
         
     }
 
     @Override
     public void definirMotor() {
-        c.setMotor(1.2f);
+        c.setMotor(1.4f);
     }
 
     @Override
     public void definirAlmacenamiento() {
-        c.setAlmacenamiento(500);
+        c.setAlmacenamiento(1000);
     }
 
     @Override
     public void definirCarroceria() {
-        c.setCarroceria("JWE9EWF8");
+        c.setCarroceria("1J23KO23");
     }
 
     @Override
